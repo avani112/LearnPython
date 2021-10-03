@@ -1,4 +1,4 @@
 name=input("name ")
-age=(input("age "))
+age=input("age ")
 test=age*79;
-print(f"hello {name}, you are {age} years old, this is test {test}." )
+print("hello {}, you are {} years old, this is test {}.".format(name,age,test))
